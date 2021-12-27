@@ -1,6 +1,6 @@
 {
   "name": "auto-poc-yarn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "POC with auto workflow, but with yarn, rather than npm.",
   "main": "index.js",
   "repository": "https://github.com/bguillen-tcs/auto-poc-yarn",
