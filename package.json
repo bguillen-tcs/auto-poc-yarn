@@ -7,7 +7,16 @@
   "author": "Bryan Guillen",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "auto": "auto"
+  },
   "devDependencies": {
     "auto": "^10.32.5"
+  },
+  "auto": {
+    "plugins": [
+      "npm"
+    ],
+    "onlyPublishWithReleaseLabel": true
   }
 }
