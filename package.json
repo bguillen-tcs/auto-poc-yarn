@@ -6,5 +6,8 @@
   "repository": "https://github.com/bguillen-tcs/auto-poc-yarn",
   "author": "Bryan Guillen",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "auto": "^10.32.5"
+  }
 }
