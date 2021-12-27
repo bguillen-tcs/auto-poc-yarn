@@ -25,5 +25,8 @@
   },
   "workspaces": [
     "packages/**/*"
-  ]
+  ],
+  "dependencies": {
+    "@types/react": "^17.0.38"
+  }
 }
