@@ -1,6 +1,7 @@
 import React from "react";
 
 interface BoxProps {
+  background: string
   border: string
   children: JSX.Element
   display: string
@@ -9,6 +10,7 @@ interface BoxProps {
 }
 
 const Box = ({
+  background,
   border,
   children,
   display,
@@ -16,7 +18,7 @@ const Box = ({
   p
 }: BoxProps) => {
   return (
-    <div style={{ border, display, padding: p, margin: m }}>
+    <div style={{ background, border, display, padding: p, margin: m }}>
       {children}
     </div>
   );
