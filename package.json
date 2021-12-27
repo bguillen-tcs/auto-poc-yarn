@@ -18,5 +18,8 @@
       "npm"
     ],
     "onlyPublishWithReleaseLabel": true
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@bguillen-tcs"
   }
 }
