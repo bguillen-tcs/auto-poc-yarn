@@ -15,7 +15,9 @@
   },
   "auto": {
     "plugins": [],
-    "onlyPublishWithReleaseLabel": true
+    "onlyPublishWithReleaseLabel": true,
+    "name": "Bryan Guillen",
+    "email": "bguille@truechoice.io"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@bguillen-tcs"
